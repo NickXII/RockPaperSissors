@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css?family=Scope+One&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	background-color: #24272E;
+}
+header {
+	background: #497EA5;
+	padding: 20px;
+}
+header > h1 {
+	color: #24272E;
+	text-align: center;
+	font-family: Saria, sans-serif;
+}
+.score-board {
+	margin: 25px 735px 50px;
+	border: 3px solid white;
+	border-radius: 10px;
+	text-align: center;
+	width: 200px;
+	color: white;
+	font-size: 46px;
+	padding: 15px 20px;
+	font-family: Scope-one;
+	position: relative;
+}
+.badge {
+	background: #497EA5;
+	color: white;
+	font-size: 14px;
+	padding: 2px 10px;
+	font-family: Scope-one;
+}
+#user-label {
+	position: absolute;
+	top: 30px;
+	left: -25px;
+}
+
+#comp-label {
+	position: absolute;
+	top: 30px;
+	right: -30px;
+}
+.result {
+	margin-top: 20px;
+	font-size: 40px;
+	color: white;
+}
+.result > p {
+	text-align: center;
+	font-weight: bold;
+	font-family: Scope-one;
+}
+.choices {
+	margin: 50px 0px;
+	text-align: center;
+}
+.choice {
+	border: 4px solid white;
+	border-radius: 50%;
+	padding: 10px;
+	margin: 0px 15px;
+	display: inline-block;
+	transition: all 0.3s ease;
+}
+.choice:hover {
+	cursor: pointer;
+	background: red;
+}
+#action {
+	margin: 20px 20px;
+	text-align: center;
+	color: white;
+	font-family: Scope-one;
+	font-weight: bold;
+	font-size: 100px;
+}
+.select {
+	font-size: 50px;
+	color: white;
+	margin: 50px 0px;
+	text-align: center;
+}
+.selected {
+	border: 4px solid white;
+	border-radius: 10px;
+	padding: 10px;
+	margin: 0px 15px;
+	display: block;
+	transition: all 0.3s ease;
+}
+.selected:hover {
+	cursor: pointer;
+	background: red;
+}
+.finalResult {
+	margin-top: 20px;
+	font-size: 40px;
+	color: white;
+}
+.finalResult > p {
+	text-align: center;
+	font-weight: bold;
+	font-family: Scope-one;
+}
+.userResult {
+	margin-top: 20px;
+	font-size: 40px;
+	color: white;
+}
+.userResult > p {
+	text-align: center;
+	font-weight: bold;
+	font-family: Scope-one;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
